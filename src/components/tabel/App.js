@@ -14,7 +14,6 @@ import Tooltip from "react-bootstrap/Tooltip";
 import { useDispatch, useSelector } from "react-redux";
 import {
   clearDeleteProductList,
-  deleteProducts,
   productState,
   setShowCheckBox,
   setProductsMap,
@@ -32,8 +31,6 @@ const List = () => {
   const {
     products,
     showCheckBox,
-    currentFilterCategory,
-    sortType,
     productsMap,
   } = useSelector(productState);
 
