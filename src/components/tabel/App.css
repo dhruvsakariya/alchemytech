@@ -1,0 +1,14 @@
+.table .dropdown-toggle::after {
+  display: none !important;
+}
+
+.totalBox {
+  border-right: 2px solid #f2f2f2;
+  border-left: 2px solid #f2f2f2;
+  font-weight: bold;
+}
+
+.selectForDelete,
+.selectForDelete * {
+  cursor: pointer !important;
+}
